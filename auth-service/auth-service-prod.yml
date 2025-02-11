@@ -1,3 +1,5 @@
 spring:
   datasource:
-    url: jdbc:mysql://prod-db:3306/aichat_auth
+    url: ${AUTH_DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
